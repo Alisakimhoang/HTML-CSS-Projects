@@ -1,0 +1,241 @@
+html {
+    background-color: #869960;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Banner Overlay */
+.image-banner {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color:#FFF;
+    background-color: rgba(0,0,200,.5);
+    
+}
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF repeat-x;
+    background-image: none;
+   
+    
+   
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 20px;
+    background-image:url(../Images/Hawaii/Kamehame.JPG);
+    color: rgb(5, 59, 5);
+    background-position: right;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Site Navigation */
+.site-nav {
+    margin-top: 20px;
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.site-nav a {
+    display: block;
+    color: #617140;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #e5e9dc;
+    border-bottom: none;
+
+}
+
+.site-nav a:hover {
+    background-color: #e5e9dc;
+}
+/* End Site Navigation */
+
+.content-area {
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+}
+
+.main-area {
+    width: 66%;
+    float:left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* Form Styles*/
+form {
+    background-color: #ECECEC;
+    padding: 30px, 40px;
+}
+
+.hidden-label {
+    position:absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+input,
+select {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+select {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+input[type="tel"]
+select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10 px;
+    height: 40px;
+   
+    margin-bottom: 15px;
+    border: 1px solid #CDCDCD;
+    outline: none;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus {
+    border: 1px solid #869960;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0, .13);
+}
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #869960;
+    color: #FFF;
+    margin-bottom: 10px;
+    outline: none;
+
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    border: 1px solid #535E3B;
+    background-color: #798A56 ;
+}
+
+.checkbox-text {
+    font-size: 85%;
+    color: #777;
+}
+
+
+/* Table Style */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+table th {
+    text-align: left;
+    background-color: #869960;
+    color: #FFF;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+}
+table th,
+table td {
+    border: 1px solid #869960;
+    padding: 10px;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #e5e9dc;
+
+}
+.sidebar {
+    position: relative;
+    z-index: 11;
+    width: 33%;
+    float:left;
+    background-color: #e5e9dc;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+}
+
+footer {
+    text-align: center;
+    font-size: 85%;
+    color:#999;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fix {
+    clear: both;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
