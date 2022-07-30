@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        <Build a Survey Form using HTML and CSS>
+    </title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+  
+<body>
+    <h1>Udemy Survey Form</h1>
+    
+  
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name" >
+                Name <i><small>(required)</small></i>
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" required>
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email" required>
+                Email <i><small>(required)</small></i>
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age <i><small>(optional)</small></i>
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="number"
+                   id="age"
+                   placeholder="Enter your age" >
+        </div>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you? <i><small>(optional)</small></i>
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label for="Country" id="label-country">  
+                Where are you from? <i><small>(optional)</small></i>
+            </label>
+                <input type="text" name="country" id="Country" placeholder="Enter your country">
+                                      
+        </div>
+
+        <div class="form-control">
+            <label for="learn programming" id="label-learn">
+                When are you looking to learn software programming? 
+                <small>(optional)</small></i>
+            </label>
+            
+             <!-- Input Type Radio Button -->
+
+             <label for="Learn-1">
+                <input type="radio" name="learn" id="Learn-1">Right now(0-30days)
+             </label>
+             <label for="Learn-2">
+                <input type="radio" name="learn" id="Learn-2">Soon (1-3 Months)
+             </label>
+             <label for="Learn-3">
+                <input type="radio" name="learn" id="Learn-3">Later (3-6 Months)
+             </label>
+             <label for="Learn-4">
+                <input type="radio" name="learn" id="Learn-4">Not Now (6+ Months)
+             </label>
+          </div>
+
+          <div class="form-control">
+            <label for="Working" id="label-work"> 
+            Are you working as solfware develope currently?
+
+            </label>
+            <label for="work-1">
+                <input type="radio" name="working" id="work-1">Yes
+            </label>
+
+            <label for="work-2">
+                <input type="radio" name="working" id="work-2">No
+            </label>
+          </div>
+ 
+        <div class="form-control">
+            <label id="label-udemy">
+                Would you recommend Udemy to a friend? 
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Maybe
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label id="label-language">
+                Languages and Frameworks you known
+                <small>(Check all that apply)</small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">C</label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">C++</label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">C#</label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Java</label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Python</label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">JavaScript</label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">React</label>
+            <label for="inp-8">
+                <input type="checkbox"
+                       name="inp">Angular</label>
+            <label for="inp-9">
+                <input type="checkbox"
+                       name="inp">Django</label>
+            <label for="inp-10">
+                <input type="checkbox"
+                       name="inp">Spring</label>
+        </div>
+  
+        <div class="form-control">
+            <label for="information" id="label-information">
+                How do you hear about us?
+            </label>
+
+            <label for="inform-1">
+                <input type="checkbox" name="inform" id="inform-1"> Referred by a friend
+            </label>
+            <label for="">
+                <input type="checkbox" name="inform" id="inform-2"> Facebook
+            </label>
+            <label for="">
+                <input type="checkbox" name="inform" id="inform-3"> Twitter
+            </label>
+            <label for="">
+                <input type="checkbox" name="inform" id="inform-4"> Other
+            </label>
+
+        </div>
+
+        <div class="form-control">
+            <label for="comment" id="label-comment">
+                Any comments or suggestions:
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" placeholder="Enter your comment here">
+           </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Send
+        </button> 
+        <p>
+        <b>Visit Udemy Webpage by link below for more information </b><br>
+        <i><a href="https://www.udemy.com/">Udemy.com</a></i>
+</p>
+    
+    </form>
+   
+</body>
+<footer></footer>
+  
+</html>
