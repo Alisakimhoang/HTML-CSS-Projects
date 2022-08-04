@@ -1,0 +1,87 @@
+/* Styling the body element
+        like body color and margin */
+
+        body {
+            background-color: violet;
+            margin: 20%;
+        }
+
+        /* Styling the Title and giving
+        shadow to the title */
+h1 {
+    color:purple;
+    text-align: center;
+    font-size: 7vh;
+    text-shadow: 5px 5px 10px white;
+}
+
+ /* Setting width and display
+        type of image */
+
+        img {
+            display: inline-block;
+            width: 80%;
+        }
+
+        /* Setting font color and font
+        size of the image-caption */
+        #caption {
+            font-size: 17px;
+            font-family: Gill Sans;
+            color: black;
+        }
+
+         /* Styling the content of the page like-
+        padding, font-size, font color etc.*/
+        div#tribute-data {
+            background-color: rgb(46, 139, 87, 0.25);
+            box-shadow: 20px 20px 20px #98FB98;
+            font-family: Georgia;
+            padding: 25px 25px;
+            margin: 11px;
+            margin-top: 50px;
+        }
+
+         /* Styling the title of the content */
+         h2 {
+            font-size: 35px;
+            color: white;
+            text-align: center;
+            text-shadow: 5px 5px 10px black;
+         }
+p {
+    color: black;
+}
+
+
+.hightlight {
+    background-color:;
+    display: inline-block
+    width: auto;
+}
+
+textarea {
+    display: inline-block;
+    width: 85%;
+}
+
+button {
+    background: none;
+    color: #8338ec;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25, box-shadow 0.25s, tranform 0.25s;
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(0.5em);
+    cursor: pointer;
+}
+
+
+
+
