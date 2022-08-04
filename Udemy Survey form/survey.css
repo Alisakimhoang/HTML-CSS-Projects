@@ -81,4 +81,13 @@
             width: 100%;
             margin-top: 50px;
             margin-bottom: 20px;
+            transition: color 0.25s, border-color 0.25, box-shadow 0.25s, tranform 0.25s;
+        }
+        
+        button:hover {
+            border-color: #f1ff5c;
+            color: white;
+            box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+            transform: translateY(-0.5em);
+            cursor: pointer;
         }
